@@ -15,3 +15,5 @@ Objective: predict the 2013 adult obesity rate for each US county (see the [docu
 
 Project inspired by the list [here](https://medium.com/datadriveninvestor/the-50-best-public-datasets-for-machine-learning-d80e9f030279).
 Very loosely followed [this guideline](https://towardsdatascience.com/a-complete-machine-learning-walk-through-in-python-part-one-c62152f39420) for ML project workflow.
+
+The project notebook can be viewed online [here](https://nbviewer.jupyter.org/github/jieunchoi/food_env_atlas/blob/master/FEA.ipynb) at https://nbviewer.jupyter.org/.
