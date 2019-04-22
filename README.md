@@ -13,6 +13,8 @@ This is a compilation of over 275 food environment indicators for every U.S. cou
 
 Objective: predict the 2013 adult obesity rate for each US county (see the [documentation](https://www.ers.usda.gov/data-products/food-environment-atlas/documentation/) for more details) based on the available data. 
 
+![alt text](https://github.com/jieunchoi/FEA/blob/master/img/obesity_rates.png)
+
 Project inspired by the list [here](https://medium.com/datadriveninvestor/the-50-best-public-datasets-for-machine-learning-d80e9f030279).
 Very loosely followed [this guideline](https://towardsdatascience.com/a-complete-machine-learning-walk-through-in-python-part-one-c62152f39420) for ML project workflow.
 

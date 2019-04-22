@@ -88,10 +88,10 @@ Restaurant Availability and Expenditures,RESTAURANTS,Full-service,"Full-service 
 Restaurant Availability and Expenditures,RESTAURANTS,Full-service,"Full-service restaurants/1,000 pop, 2009",FSRPTH09,CNTY10,Count
 Restaurant Availability and Expenditures,RESTAURANTS,Full-service,"Full-service restaurants/1,000 pop, 2014",FSRPTH14,CNTY10,Count
 Restaurant Availability and Expenditures,RESTAURANTS,Full-service,"Full-service restaurants/1,000 pop (% change), 2009-14",PCH_FSRPTH_09_14,CNTY10,% change
-Restaurant Availability and Expenditures,RESTAURANTS,Expenditures,"Expenditures per capita, fast food, 2007*",PC_FFRSALES07,CNTY10,Dollars
-Restaurant Availability and Expenditures,RESTAURANTS,Expenditures,"Expenditures per capita, fast food, 2012*",PC_FFRSALES12,CNTY10,Dollars
-Restaurant Availability and Expenditures,RESTAURANTS,Expenditures,"Expenditures per capita, restaurants, 2007*",PC_FSRSALES07,CNTY10,Dollars
-Restaurant Availability and Expenditures,RESTAURANTS,Expenditures,"Expenditures per capita, restaurants, 2012*",PC_FSRSALES12,CNTY10,Dollars
+Restaurant Availability and Expenditures,RESTAURANTS,Expenditures,"Expenditures per capita, fast food, 2007*",PC_FFRSALES07,CNTY10,Dollars/capita
+Restaurant Availability and Expenditures,RESTAURANTS,Expenditures,"Expenditures per capita, fast food, 2012*",PC_FFRSALES12,CNTY10,Dollars/capita
+Restaurant Availability and Expenditures,RESTAURANTS,Expenditures,"Expenditures per capita, restaurants, 2007*",PC_FSRSALES07,CNTY10,Dollars/capita
+Restaurant Availability and Expenditures,RESTAURANTS,Expenditures,"Expenditures per capita, restaurants, 2012*",PC_FSRSALES12,CNTY10,Dollars/capita
 Food Assistance,ASSISTANCE,SNAP,"SNAP redemptions/SNAP-authorized stores, 2012",REDEMP_SNAPS12,CNTY10,Dollars/store
 Food Assistance,ASSISTANCE,SNAP,"SNAP redemptions/SNAP-authorized stores, 2016",REDEMP_SNAPS16,CNTY10,Dollars/store
 Food Assistance,ASSISTANCE,SNAP,"SNAP redemptions/SNAP-authorized stores (% change), 2012-16",PCH_REDEMP_SNAPS_12_16,CNTY10,% change
@@ -163,8 +163,8 @@ Local Foods,LOCAL,Direct Sales,"Direct farm sales (%), 2012",PCT_LOCLSALE12,CNTY
 Local Foods,LOCAL,Direct Sales,"Direct farm sales, 2007",DIRSALES07,CNTY10,"1,000 dollars"
 Local Foods,LOCAL,Direct Sales,"Direct farm sales, 2012",DIRSALES12,CNTY10,"1,000 dollars"
 Local Foods,LOCAL,Direct Sales,"Direct farm sales (% change), 2007 - 12",PCH_DIRSALES_07_12,CNTY10,% change
-Local Foods,LOCAL,Direct Sales,"Direct farm sales per capita, 2007",PC_DIRSALES07,CNTY10,Dollars
-Local Foods,LOCAL,Direct Sales,"Direct farm sales per capita, 2012",PC_DIRSALES12,CNTY10,Dollars
+Local Foods,LOCAL,Direct Sales,"Direct farm sales per capita, 2007",PC_DIRSALES07,CNTY10,Dollars/capita
+Local Foods,LOCAL,Direct Sales,"Direct farm sales per capita, 2012",PC_DIRSALES12,CNTY10,Dollars/capita
 Local Foods,LOCAL,Direct Sales,"Direct farm sales per capita (% change), 2007 - 12",PCH_PC_DIRSALES_07_12,CNTY10,% change
 Local Foods,LOCAL,Farmers' Markets,"Farmers' markets, 2009",FMRKT09,CNTY10,Count
 Local Foods,LOCAL,Farmers' Markets,"Farmers' markets, 2016",FMRKT16,CNTY10,Count
@@ -269,7 +269,7 @@ Socioeconomic Characteristics,SOCIOECONOMIC,Race & Age,"% American Indian or Ala
 Socioeconomic Characteristics,SOCIOECONOMIC,Race & Age,"% Hawaiian or Pacific Islander, 2010",PCT_NHPI10,CNTY10,Percent
 Socioeconomic Characteristics,SOCIOECONOMIC,Race & Age,"% Population 65 years or older, 2010",PCT_65OLDER10,CNTY10,Percent
 Socioeconomic Characteristics,SOCIOECONOMIC,Race & Age,"% Population under age 18, 2010",PCT_18YOUNGER10,CNTY10,Percent
-Socioeconomic Characteristics,SOCIOECONOMIC,Income Level,"Median household income, 2015",MEDHHINC15,CNTY10,Dollars
+Socioeconomic Characteristics,SOCIOECONOMIC,Income Level,"Median household income, 2015 (not /capita but dummy-coded)",MEDHHINC15,CNTY10,Dollars/capita
 Socioeconomic Characteristics,SOCIOECONOMIC,Income Level,"Poverty rate, 2015",POVRATE15,CNTY10,Percent
 Socioeconomic Characteristics,SOCIOECONOMIC,Income Level,"Persistent-poverty counties, 2010",PERPOV10,CNTY10,Legend
 Socioeconomic Characteristics,SOCIOECONOMIC,Income Level,"Child poverty rate, 2015",CHILDPOVRATE15,CNTY10,Percent
